@@ -6,7 +6,7 @@ from tensorflow.keras.applications import InceptionV3
 from tensorflow.keras.preprocessing import image_dataset_from_directory
 
 # 데이터셋 경로
-TRAIN_DATASET_PATH = 'path/to/trai'  # 학습 데이터셋 경로
+TRAIN_DATASET_PATH = 'path/to/train_dataset'  # 학습 데이터셋 경로
 VALIDATION_DATASET_PATH = 'path/to/validation_dataset'  # 검증 데이터셋 경로
 
 # 데이터셋 불러오기
